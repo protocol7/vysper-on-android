@@ -1,4 +1,4 @@
-This is Apache Vysper running on Android. It currently requires Vysper SVN trunk and the following patch to Apache MINA 2.0.4:
+This is Apache Vysper running on Android. It currently requires Vysper SVN trunk and the following patch to [Apache MINA 2.0.4](http://svn.apache.org/repos/asf/mina/branches/2.0.4/):
 
     Index: src/main/java/org/apache/mina/filter/ssl/SslHandler.java 
     =================================================================== 
