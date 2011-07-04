@@ -21,11 +21,11 @@ To build a debug distribution:
 
     ant debug
 
+You then need to start the emulator or connect the device 
+
 To deploy to a running emulator (or device):
 
     adb install -r bin/vysper-on-android-debug.apk
-
-You then need to start the emulator or connect the device 
 
 To get a log from the emulator showing Vysper starting:
 
@@ -34,3 +34,5 @@ To get a log from the emulator showing Vysper starting:
 To set up port forwarding to allow a XMPP client to connect the running Vysper server:
 
     adb forward tcp:5222 tcp:5222
+
+You should now be able to connect an XMPP client to port 5222 on the host computer, which will be forwarded to Vysper running on Android. Pretty cool.
