@@ -32,7 +32,7 @@ public class VysperOnAndroid extends Activity
         StorageProviderRegistry providerRegistry = new MemoryStorageProviderRegistry();
 
         AccountManagement accountManagement = (AccountManagement) providerRegistry.retrieve(AccountManagement.class);
-        accountManagement.addUser(EntityImpl.parseUnchecked("test@vysper.org"), "test");
+        accountManagement.addUser(EntityImpl.parseUnchecked("test@vysper.org"), "password");
         
         XMPPServer server = new XMPPServer("vysper.org");
         server.addEndpoint(new C2SEndpoint());
