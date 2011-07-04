@@ -8,7 +8,7 @@ This is Apache Vysper running on Android. It currently requires Vysper SVN trunk
              for (;;) { 
                  switch (handshakeStatus) { 
                      case FINISHED: 
-    + case NOT_HANDSHAKING: 
+                   + case NOT_HANDSHAKING: 
                          if ( LOGGER.isDebugEnabled()) { 
                              LOGGER.debug("{} processing the FINISHED state", sslFilter.getSessionInfo(session)); 
                          } 
